@@ -1,0 +1,127 @@
+
+========== HEADER ==========
+.nav__logo
+BOOKshop
+
+.nav__link
+Home - Trending - Popular - Review - .btn Get Started  
+
+========== HOME ==========
+.home__title
+Welcome to The BOOKshop
+
+.home__description
+Online store for selling books
+
+.btn
+Get Started Now
+
+.home__btn
+View Products
+
+
+========== TRENDING ==========
+.section__title
+Trending Books
+
+.book__title .book__price .book__author
+The Wind Knows My Name
+$13.99
+Isabel Allende and Frances Riddle
+
+The Davenports
+$14.96
+Krystal Marquis
+
+The Legacies
+$14.24
+Jessica Goodman
+
+Happy Place
+$15.67
+Emily Henry
+
+.btn__link
+See all
+
+
+========== POPULAR ==========
+.section__title
+Popular Books
+
+.book__title .book__price .book__author
+The Half Moon
+$14.00
+Mary Beth Keane
+
+The Guest
+$17.42
+Emma Cline 
+
+The Rachel Incident
+$16.59
+Caroline O'Donoghue
+
+The Spider
+$24.99
+Lars Kepler
+
+.btn__link
+See all
+
+
+========== TESTIMONIALS ==========
+.section__title
+Our Customer
+
+.testimonials__title .testimonials__description
+Leta Franklin
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+
+Aaron Hudson
+Id diam maecenas ultricies mi eget. In hac habitasse platea dictumst vestibulum. In egestas erat imperdiet sed.
+
+Ron Simmons
+Eleifend donec pretium vulputate sapien nec sagittis. Aliquet lectus proin nibh nisl.
+
+
+========== CTA ==========
+.cta__title
+Get 15% off!
+
+.cta__description
+Enter your email address to get your 15% off Discount Code.
+
+.btn
+Send Code
+
+========== FOOTER ==========
+.footer__logo
+BOOKshop
+
+footer__title .footer__link
+Company
+ FAQs
+ About Us
+ Contact Us
+
+News
+ Features
+ Testimonial
+ Videos
+
+Address
+ Valwood Pkwy 8929 <br> 
+ Billings Michigan 63104, United States 
+ 9AM - 11PM    
+
+Social Media
+
+.footer__social-link
+https://www.facebook.com/
+https://www.instagram.com/
+https://www.youtube.com/
+
+.footer__copy
+&#169; All Rights Reserved By Judith
+
