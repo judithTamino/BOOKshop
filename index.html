@@ -14,8 +14,10 @@
 <body>
   <!--========== HEADER ==========-->
   <header class="header">
-    <nav class="nav bd-container">
-      <a href="#" class="nav__logo">BOOKshop</a>
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        BOOK<span>sh</span>op
+      </a>
 
       <div class="nav__menu">
         <ul class="nav__list">
@@ -34,15 +36,15 @@
           <li class="nav__item">
             <a href="#" class="nav__link">Review</a>
           </li>
-
-          <li class="nav__item">
-            <a href="#" class="btn">Get Started</a>
-          </li>
         </ul>
+
+        <div class="nav__close">
+          <ion-icon class="nav__icon" name="close-outline"></ion-icon>
+        </div>
       </div>
 
       <div class="nav__toggle" id="nav-toggle">
-        <ion-icon class="nav__icon" name="grid-outline"></ion-icon>
+        <ion-icon class="nav__icon" name="menu-outline"></ion-icon>
       </div>
     </nav>
   </header>
@@ -50,7 +52,29 @@
   <!--==================== MAIN ====================-->
   <main class="main">
     <!--==================== HOME ====================-->
-    <section class="home section" id="home"></section>
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__title">
+            Welcome to <br> The book shop!
+          </h1>
+          <h3 class="home__subtitle">
+            Millions of books are offered for sale online on BOOKshop.
+          </h3>
+          <a href="#" class="btn btn__full btn__home">
+            View Products
+          </a>
+        </div>
+
+        <div class="home__imgs grid grid--3-cols">
+            <img src="images/home-1.jpg" class="home__img">
+
+            <img src="images/home-2.jpg" class="home__img">
+
+            <img src="images/home-3.jpg" class="home__img">
+        </div>
+      </div>
+    </section>
 
     <!--==================== TRENDING ====================-->
     <section class="trending section" id="trending"></section>
