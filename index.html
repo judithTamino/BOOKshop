@@ -5,6 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+  <!--========== GOOGLE FONTS ==========-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Work+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
   <!--========== CSS ==========-->
   <link rel="stylesheet" href="css/style.css">
 
@@ -52,41 +59,165 @@
   <!--==================== MAIN ====================-->
   <main class="main">
     <!--==================== HOME ====================-->
-    <section class="home section" id="home">
-      <div class="home__container container grid">
-        <div class="home__data">
+    <section class="home" id="home">
+      <div class="home__container grid grid--2-cols">
+        <div class="home__content container">
           <h1 class="home__title">
-            Welcome to <br> The book shop!
+            Find Your Next Book
           </h1>
           <h3 class="home__subtitle">
-            Millions of books are offered for sale online on BOOKshop.
+            Millions of books are offered for sale online.
           </h3>
-          <a href="#" class="btn btn__full btn__home">
-            View Products
-          </a>
-        </div>
 
-        <div class="home__imgs grid grid--3-cols">
-            <img src="images/home-1.jpg" class="home__img">
-
-            <img src="images/home-2.jpg" class="home__img">
-
-            <img src="images/home-3.jpg" class="home__img">
+          <div class="home__btns">
+            <a href="#" class="btn home__btn">
+              Buy now
+            </a>
+            <a href="#" class="btn home__btn-link">
+              Learn more
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
     <!--==================== TRENDING ====================-->
-    <section class="trending section" id="trending"></section>
+    <section class="trending section" id="trending">
+      <div class="trending__container container">
+        <h2 class="section__title">Trending Books</h2>
+
+        <div class="trending__content grid grid--4-cols">
+          <div class="book__card">
+            <img src="images/trending-1.jpg" class="book__img">
+            <h3 class="book__title">The Wind Knows My Name</h3>
+            <span class="book__author">Isabel Allende and Frances Riddle</span>
+
+            <a href="" class="btn book__btn">
+              <h3 class="book__price">$13.99</h3>
+              <span class="book__btn-text">Add to cart</span>
+              <ion-icon class="book__icon" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="book__card">
+            <img src="images/trending-2.jpg" class="book__img">
+            <h3 class="book__title">The Davenports</h3>
+            <span class="book__author">Krystal Marquis</span>
+
+            <a href="" class="btn book__btn">
+              <h3 class="book__price">$14.96</h3>
+              <span class="book__btn-text">Add to cart</span>
+              <ion-icon class="book__icon" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="book__card">
+            <img src="images/trending-3.jpg" class="book__img">
+            <h3 class="book__title">The Legacies</h3>
+            <span class="book__author">Jessica Goodman</span>
+
+            <a href="" class="btn book__btn">
+              <h3 class="book__price">$14.00</h3>
+              <span class="book__btn-text">Add to cart</span>
+              <ion-icon class="book__icon" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="book__card">
+            <img src="images/trending-4.jpg" class="book__img">
+            <h3 class="book__title">Happy Place</h3>
+            <span class="book__author">Emily Henry</span>
+
+            <a href="" class="btn book__btn">
+              <h3 class="book__price">$15.67</h3>
+              <span class="book__btn-text">Add to cart</span>
+              <ion-icon class="book__icon" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CTA ====================-->
+    <section class="cta" id="cta">
+      <div class="cta__container container grid grid--2-cols">
+        <img src="images/cta.png" class="cta__img">
+
+        <div class="cta__content ">
+          <h2 class="cta__title">Get 20% off!</h2>
+          <p class="cta__description">Enter your email address to get your 20% off Discount Code.</p>
+
+          <form action="">
+            <div class="cta__input-box grid grid--2-cols">
+              <input type="email" name="" class="cta__input" placeholder="email@gmail.com">
+              <a href="#" class="btn cta__btn">Send Code</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <!--==================== POPULAR ====================-->
-    <section class="popular section" id="popular"></section>
+    <section class="popular section" id="popular">
+      <div class="popular__container container">
+        <h2 class="section__title">
+          Popular Books
+        </h2>
+
+        <div class="popular__content grid grid--4-cols">
+          <div class="book__card">
+            <img src="images/popular-1.jpg" class="book__img">
+            <h3 class="book__title">The Half Moon</h3>
+            <span class="book__author">Mary Beth Keane</span>
+
+            <a href="" class="btn book__btn">
+              <h3 class="book__price">$14.00</h3>
+              <span class="book__btn-text">Add to cart</span>
+              <ion-icon class="book__icon" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="book__card">
+            <img src="images/popular-2.jpg" class="book__img">
+            <h3 class="book__title">The Guest</h3>
+            <span class="book__author">Emma Cline</span>
+
+            <a href="" class="btn book__btn">
+              <h3 class="book__price">$17.42</h3>
+              <span class="book__btn-text">Add to cart</span>
+              <ion-icon class="book__icon" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="book__card">
+            <img src="images/popular-3.jpg" class="book__img">
+            <h3 class="book__title">The Rachel Incident</h3>
+            <span class="book__author">Caroline O'Donoghue</span>
+
+            <a href="" class="btn book__btn">
+              <h3 class="book__price">$16.59</h3>
+              <span class="book__btn-text">Add to cart</span>
+              <ion-icon class="book__icon" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="book__card">
+            <img src="images/popular-4.jpg" class="book__img">
+            <h3 class="book__title">The Spider</h3>
+            <span class="book__author">Lars Kepler</span>
+
+            <a href="" class="btn book__btn">
+              <h3 class="book__price">$24.99</h3>
+              <span class="book__btn-text">Add to cart</span>
+              <ion-icon class="book__icon" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--==================== TESTIMONIALS ====================-->
     <section class="testimonials section" id="testimonials"></section>
-
-    <!--==================== CTA ====================-->
-    <section class="cta section" id="cta"></section>
   </main>
 
   <!--==================== FOOTER ====================-->
